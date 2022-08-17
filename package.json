@@ -1,0 +1,17 @@
+{
+  "name": "webservers",
+  "version": "1.0.0",
+  "description": "Lecture notes",
+  "main": "03_expressServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "local": "./node_modules/.bin/nodemon ./03_expressServer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
